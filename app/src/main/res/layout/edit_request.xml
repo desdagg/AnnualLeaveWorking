@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/colorBackground">
+
+
+    <Button
+        android:text="Submit Request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:id="@+id/submit_button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/end_text"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:hint="End Date" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/start_text"
+        android:layout_above="@+id/end_text"
+        android:layout_alignLeft="@+id/end_text"
+        android:layout_alignStart="@+id/end_text"
+        android:layout_marginBottom="54dp"
+        android:focusable="false"
+        android:hint="Beginning Date" />
+</RelativeLayout>

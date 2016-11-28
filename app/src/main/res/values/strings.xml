@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AnnualLeave</string>
+
+    <string-array name="userRoles">
+        <item>employee</item>
+        <item>admin</item>
+        <item>manager</item>
+    </string-array>
+</resources>
